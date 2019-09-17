@@ -1,0 +1,29 @@
+.pagination {
+  display: flex;
+  width: 280px;
+  margin: auto;
+  padding-bottom: 64px;
+  padding-top: 62px;
+
+  &__block {
+    margin: 0 8.5px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid #f1cdb3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  &__active {
+    background-color: #f1cdb3;
+  }
+
+  &__next-number {
+    color: #f1cdb3;
+    font-size: 24px;
+    line-height: 60px;
+  }
+}

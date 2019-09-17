@@ -1,0 +1,38 @@
+.pets-main {
+  background-color: #f6f6f6;
+}
+
+.our-pets {
+  padding-top: 68px;
+  width: 1170px;
+  margin: auto;
+
+ &__title {
+   text-align: center;
+   @include title();
+   margin-bottom: 62px;
+ }
+
+ &__wrapper {
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+   margin: auto;
+
+  & > .pets-block {
+    margin: 0 11px 34px 11px;
+    left: 0;
+    transform: translate(0, 0);
+  }
+ }
+}
+
+@media all and (max-width: 1170px) {
+  .our-pets {
+    width: 95%;
+
+    &__wrapper {
+      justify-content: center;
+    }
+  }
+}

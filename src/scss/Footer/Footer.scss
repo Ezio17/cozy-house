@@ -1,0 +1,89 @@
+.footer {
+  background-image: url('../../image/footer-bg.png');
+  background-position: center center;
+  height: 355px;
+
+  &__wrapper {
+    width: 750px;
+    display: flex;
+    margin: auto;
+  }
+}
+
+.contact {
+  width: 275px;
+
+  &-right-block {
+    margin-left: 174px;
+  }
+
+  &__title {
+    @include title();
+    color: #ffffff;
+    margin-top: 79px;
+  }
+
+  &__block {
+    display: flex;
+    align-items: center;
+  }
+
+  &__text {
+    margin-left: 22px;
+    font-family: $font;
+    color: #f1cdb3;
+    font-size: 20px;
+  }
+}
+
+.email {
+  margin-top: 45px;
+
+  &-image {
+    width: 40px;
+    height: 26px;
+  }
+}
+
+.phone {
+  margin-top: 48px;
+
+  &-image {
+    height: 32px;
+    width: 40px;
+  }
+}
+
+.pin-image {
+  width: 26px;
+  height: 36px;
+}
+
+.Boston {
+  margin-top: 34px;
+}
+
+.London {
+  margin-top: 34px;
+}
+
+@media all and (max-width: 830px) {
+  .footer {
+    background-image: none;
+    background-color: #6d7a71;
+    height: auto;
+
+
+    &__wrapper {
+      width: 95%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .contact-right-block {
+    margin-left: 0;
+    padding-bottom: 50px;
+  }
+}

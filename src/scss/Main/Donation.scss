@@ -1,0 +1,72 @@
+.donation-wrapper {
+  background-color: #f6f6f6;
+  background-image: url('../../image/dog-donation.png');
+  background-repeat: no-repeat;
+  background-position: 200px center;
+}
+
+.donation {
+  width: 355px;
+  padding: 71px 0 84px;
+  margin-left: 50%;
+
+  &__title {
+    @include title();
+    width: 320px;
+    margin-bottom: 35px;
+  }
+
+  &__name-bank {
+    font-family: $font;
+    color: #545454;
+    letter-spacing: 0.9px;
+    margin-bottom: 13px;
+  }
+
+  &__text {
+    color: #b2b2b2;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+.button-card {
+  width: 319px;
+  height: 47px;
+  border-radius: 9px;
+  background-color: #f1cdb3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 33px;
+
+  &__bank-number {
+    font-family: $font;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+  }
+}
+
+@media all and (max-width: 1300px) {
+  .donation-wrapper {
+    background-position: left center;
+  }
+}
+
+@media all and (max-width: 830px) {
+  .donation-wrapper {
+    background-image: none;
+  }
+
+  .donation {
+    margin: auto;
+  }
+}
+
+@media all and (max-width: 380px) {
+  .donation {
+    width: 95%;
+    margin: auto;
+  }
+}

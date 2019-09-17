@@ -1,0 +1,36 @@
+.pets-header {
+  height: 112px;
+  align-items: center;
+}
+
+.pets-logo {
+  font-family: $font;
+  font-size: 32px;
+  letter-spacing: 1.13px;
+  color: #f1cdb3;
+}
+
+.pets-logo-Boston {
+  color: black;
+  font-size: 13px;
+  letter-spacing: 1.3px;
+  line-height: 29px;
+}
+
+@media all and (max-width: 1190px) {
+  .pets-header {
+    width: 95%;
+  }
+}
+
+@media all and (max-width: 850px) {
+  .pets-header {
+    padding-bottom: 50px;
+  }
+}
+
+@media all and (max-width: 390px) {
+  .pets-header {
+    padding-bottom: 110px;
+  }
+}

@@ -1,0 +1,43 @@
+.pets-warpper {
+  background-color: #f6f6f6;
+  height: 830px;
+}
+
+.pets-section {
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pets-title-wrapper {
+  &__title {
+    @include title();
+  }
+}
+
+.pets-button-wrapper {
+  &__button {
+    @include button(267px);
+    
+
+    &:hover {
+      background-color: lighten(#f1cdb3, 3%);
+    }
+  }
+}
+
+.pets-title-wrapper__title {
+  padding-top: 78px;
+}
+
+.pets-button-wrapper {
+  margin-top: 66px;
+}
+
+@media all and (max-width: 1190px) {
+  .pets-section {
+    width: 95%;
+  }
+}

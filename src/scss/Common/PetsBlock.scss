@@ -1,0 +1,35 @@
+.pets-block {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  width: 270px !important;
+  height: 424px;
+  border-radius: 9px;
+  background-color: #fafafa;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  &__image {
+    height: 270px;
+  }
+
+  &__name {
+    font-family: $font;
+    font-size: 20px;
+    margin: 29px 0 24px;
+    letter-spacing: 1.2px;
+  }
+
+  &__button {
+    border-radius: 26px;
+    border: 2px solid #f1cdb3;
+    background-color: #fff;
+    width: 188px;
+    height: 52px;
+
+    &:hover {
+      background-color: #f1cdb3;
+    }
+  }
+}

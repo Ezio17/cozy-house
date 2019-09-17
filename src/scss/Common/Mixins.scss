@@ -1,0 +1,21 @@
+@mixin  button($width) {
+  width: $width;
+  height: 52px;
+  background-color: #f1cdb3;
+  border-radius: 26px;
+  border: none;
+  font-size: 17px;
+  letter-spacing: 1.02px;
+  line-height: 57px;
+  font-family: $font;
+  color: #292929;
+  cursor: pointer;
+}
+
+@mixin title() {
+  font-family: $font;
+  color: #545454 !important;
+  font-size: 35px;
+  line-height: 45px;
+  letter-spacing: 2.1px;
+}

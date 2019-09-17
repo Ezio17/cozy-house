@@ -1,0 +1,161 @@
+.header {
+  height: 920px;
+  background-image: url('../../image/header-bg.png');
+  background-position: center;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: auto;
+}
+
+.header-first-block {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  margin: auto;
+}
+
+.logo {
+  &__title {
+    font-family: $font;
+    font-size: 32px;
+    letter-spacing: 1.13px;
+    color: #f1cdb3;
+    margin-top: 59px;
+  }
+
+  &__city {
+    font-size: 13px;
+    letter-spacing: 1.3px;
+    line-height: 29px;
+    color: white;
+  }
+}
+
+.navigation {
+      margin-top: 77px;
+
+  &__li {
+     line-height: 29px;
+     color: #cdcdcd;
+     display: inline-block;
+     margin: 0 20px;
+     cursor: pointer;
+     box-sizing: border-box;
+     border-bottom: 3px solid transparent;
+
+     &:hover {
+       border-bottom: 3px solid #f1cdb3;
+     }
+  }
+}
+
+.offer {
+  &__title {
+    font-size: 44px;
+    letter-spacing: 0.96px;
+    line-height: 57px;
+    color: white;
+    font-family: $font;
+    margin-top: 251px;
+    width: 354px;
+  }
+
+  &__text {
+    line-height: 24px;
+    color: #cdcdcd;
+    width: 530px;
+    margin-top: 46px;
+  }
+
+  &__button {
+    @include button(205px);
+    margin-top: 44px;
+  }
+
+  &__button:hover {
+    background-color: lighten(#f1cdb3, 3%);
+  }
+}
+
+.active {
+  color: #f1cdb3;
+}
+
+@media all and (max-width: 1190px) {
+  .wrapper {
+    width: 95%;
+  }
+
+  .header-first-block {
+    width: 95%;
+  }
+
+  .offer {
+    &__title{
+      width: 40%;
+    }
+
+    &__text {
+      width: 40%;
+    }
+  }
+}
+
+@media all and (max-width: 850px) {
+   .header-first-block {
+     flex-direction: column;
+     align-items: center;
+   }
+
+   .logo__title, .pets-logo {
+     text-align: center;
+   }
+
+   .offer {
+    &__title {
+      width: 80%;
+    }
+
+    &__text {
+      width: 80%;
+    }
+  }
+}
+
+@media all and (max-width: 614px) {
+    .navigation, .pets-nav {
+      & > ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      &__li {
+        width: 42%;
+        margin: 0;
+        text-align: center;
+        padding-bottom: 5px;
+      }
+    }
+
+    .offer {
+      &__title {
+        margin-top: 100px;
+        width: 95%;
+      }
+
+     &__text {
+       width: 95%;
+     } 
+    }
+}
+
+@media all and (max-width: 390px) {
+   .navigation {
+     &__li {
+       width: 80%;
+     }
+   }
+}

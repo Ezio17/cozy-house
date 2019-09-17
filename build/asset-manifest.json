@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/cozy-house/build/static/css/main.fbf111e4.chunk.css",
+    "main.js": "/cozy-house/build/static/js/main.2fb47750.chunk.js",
+    "main.js.map": "/cozy-house/build/static/js/main.2fb47750.chunk.js.map",
+    "runtime~main.js": "/cozy-house/build/static/js/runtime~main.79db8a67.js",
+    "runtime~main.js.map": "/cozy-house/build/static/js/runtime~main.79db8a67.js.map",
+    "static/css/2.245b7812.chunk.css": "/cozy-house/build/static/css/2.245b7812.chunk.css",
+    "static/js/2.113754a9.chunk.js": "/cozy-house/build/static/js/2.113754a9.chunk.js",
+    "static/js/2.113754a9.chunk.js.map": "/cozy-house/build/static/js/2.113754a9.chunk.js.map",
+    "index.html": "/cozy-house/build/index.html",
+    "precache-manifest.835a4874ace62038d87fc287247f5e24.js": "/cozy-house/build/precache-manifest.835a4874ace62038d87fc287247f5e24.js",
+    "service-worker.js": "/cozy-house/build/service-worker.js",
+    "static/css/2.245b7812.chunk.css.map": "/cozy-house/build/static/css/2.245b7812.chunk.css.map",
+    "static/css/main.fbf111e4.chunk.css.map": "/cozy-house/build/static/css/main.fbf111e4.chunk.css.map",
+    "static/media/Charly.png": "/cozy-house/build/static/media/Charly.29479d0c.png",
+    "static/media/Freddie.png": "/cozy-house/build/static/media/Freddie.fe07b842.png",
+    "static/media/Jennifer.png": "/cozy-house/build/static/media/Jennifer.4edb3448.png",
+    "static/media/Katrine.png": "/cozy-house/build/static/media/Katrine.7cde897b.png",
+    "static/media/Pets.png": "/cozy-house/build/static/media/Pets.15ad1094.png",
+    "static/media/Scarlett.png": "/cozy-house/build/static/media/Scarlett.7d63f967.png",
+    "static/media/Sophia.png": "/cozy-house/build/static/media/Sophia.a8b0d615.png",
+    "static/media/Timmy.png": "/cozy-house/build/static/media/Timmy.6f20ce8b.png",
+    "static/media/Woody.png": "/cozy-house/build/static/media/Woody.06bf553b.png",
+    "static/media/dog-donation.png": "/cozy-house/build/static/media/dog-donation.daa0b066.png",
+    "static/media/footer-bg-min.png": "/cozy-house/build/static/media/footer-bg-min.43997e1d.png",
+    "static/media/footer-bg.png": "/cozy-house/build/static/media/footer-bg.342b0700.png",
+    "static/media/header-bg.png": "/cozy-house/build/static/media/header-bg.4b6c91e3.png",
+    "static/media/App.scss": "/cozy-house/build/static/media/slick.f97e3bbf.svg"
+  }
+}
