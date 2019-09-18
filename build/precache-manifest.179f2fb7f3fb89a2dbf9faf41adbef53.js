@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5dc2acae22d3086e360ddb8034adf1dd",
+    "revision": "b1446056aa74146cb3ffe427a7138349",
     "url": "/cozy-house/build/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cozy-house/build/static/css/2.245b7812.chunk.css"
   },
   {
-    "revision": "d3146a5e5b473413ebe2",
+    "revision": "9154842fda7b555a741b",
     "url": "/cozy-house/build/static/css/main.fbf111e4.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cozy-house/build/static/js/2.113754a9.chunk.js"
   },
   {
-    "revision": "d3146a5e5b473413ebe2",
-    "url": "/cozy-house/build/static/js/main.2fb47750.chunk.js"
+    "revision": "9154842fda7b555a741b",
+    "url": "/cozy-house/build/static/js/main.60dc5276.chunk.js"
   },
   {
     "revision": "b8cc40d628607d56ba09",

@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cozy-house/build/static/css/main.fbf111e4.chunk.css",
-    "main.js": "/cozy-house/build/static/js/main.2fb47750.chunk.js",
-    "main.js.map": "/cozy-house/build/static/js/main.2fb47750.chunk.js.map",
+    "main.js": "/cozy-house/build/static/js/main.60dc5276.chunk.js",
+    "main.js.map": "/cozy-house/build/static/js/main.60dc5276.chunk.js.map",
     "runtime~main.js": "/cozy-house/build/static/js/runtime~main.79db8a67.js",
     "runtime~main.js.map": "/cozy-house/build/static/js/runtime~main.79db8a67.js.map",
     "static/css/2.245b7812.chunk.css": "/cozy-house/build/static/css/2.245b7812.chunk.css",
     "static/js/2.113754a9.chunk.js": "/cozy-house/build/static/js/2.113754a9.chunk.js",
     "static/js/2.113754a9.chunk.js.map": "/cozy-house/build/static/js/2.113754a9.chunk.js.map",
     "index.html": "/cozy-house/build/index.html",
-    "precache-manifest.835a4874ace62038d87fc287247f5e24.js": "/cozy-house/build/precache-manifest.835a4874ace62038d87fc287247f5e24.js",
+    "precache-manifest.179f2fb7f3fb89a2dbf9faf41adbef53.js": "/cozy-house/build/precache-manifest.179f2fb7f3fb89a2dbf9faf41adbef53.js",
     "service-worker.js": "/cozy-house/build/service-worker.js",
     "static/css/2.245b7812.chunk.css.map": "/cozy-house/build/static/css/2.245b7812.chunk.css.map",
     "static/css/main.fbf111e4.chunk.css.map": "/cozy-house/build/static/css/main.fbf111e4.chunk.css.map",
